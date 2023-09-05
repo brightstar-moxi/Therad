@@ -1,8 +1,26 @@
+import { ClerkProvider } from "@clerk/nextjs"
+
+
 export const metadate = {
     title: 'Threads',
     description: 'A Next.js 13 Meta Thread Application'
 }
 
-export default function RootLayout({children} : {children: React.ReactNode}) {
-    return
+export default function RootLayout({
+    children
+} : {
+    children: React.ReactNode
+}) {
+    return 
+    (<ClerkProvider>
+   
+        <html lang="en">
+<body className={}>
+
+</body>
+
+        </html>
+
+
+    </ClerkProvider>)
 }
