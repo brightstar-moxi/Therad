@@ -1,0 +1,8 @@
+export const metadate = {
+    title: 'Threads',
+    description: 'A Next.js 13 Meta Thread Application'
+}
+
+export default function RootLayout({children} : {children: React.ReactNode}) {
+    return
+}
